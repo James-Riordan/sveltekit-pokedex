@@ -30,4 +30,5 @@
 	"dependencies": {
 		"svelte-add": "^2021.9.1-0.0",
 		"svelte-kit": "^1.0.0"
+	}
 }
