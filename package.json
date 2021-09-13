@@ -9,6 +9,8 @@
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
+		"@sveltejs/adapter-node": "^1.0.0-next.46",
+		"@sveltejs/adapter-static": "^1.0.0-next.18",
 		"@sveltejs/kit": "next",
 		"autoprefixer": "^10.3.4",
 		"cssnano": "^5.0.8",
@@ -25,6 +27,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"svelte-add": "^2021.9.1-0.0"
+		"svelte-add": "^2021.9.1-0.0",
+		"svelte-kit": "^1.0.0"
 	}
 }
